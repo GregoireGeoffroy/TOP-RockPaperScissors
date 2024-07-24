@@ -17,11 +17,19 @@ function getHumanChoice() {
 }
 
 // Declare the players score  variables
-
-
+let humanScore = 0;
+let computerScore = 0;
 
 // Logic to play a single round
-
+function playRound(humanChoice, computerChoice) {
+    // your code here!
+  }
+  
+  const humanSelection = getHumanChoice();
+  const computerSelection = getComputerChoice();
+  
+  playRound(humanSelection, computerSelection);
+  
 
 
 
