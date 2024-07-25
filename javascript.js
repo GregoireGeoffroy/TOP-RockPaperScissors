@@ -17,6 +17,10 @@ function getHumanChoice() {
     return choice; // Return the valid choice
 }
 
+
+
+
+
 // Function to play a single round and determine the winner
 function playRound(humanChoice, computerChoice) {
     humanChoice = humanChoice.toLowerCase(); // Ensure humanChoice is case-insensitive
@@ -64,7 +68,7 @@ function playGame() {
     }
 
     // Declare the overall winner after 5 rounds
-    if (humanScore > computerScore) {
+   // if (humanScore > computerScore) {
         console.log(`You win the game! Final Score -> Human: ${humanScore}, Computer: ${computerScore}`);
     } else if (computerScore > humanScore) {
         console.log(`You lose the game! Final Score -> Human: ${humanScore}, Computer: ${computerScore}`);
